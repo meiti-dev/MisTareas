@@ -1,0 +1,11 @@
+{
+  "appId": "dev.meiti.export.mistareas_muuq0xux",
+  "appName": "MisTareas",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "webContentsDebuggingEnabled": false
+  }
+}

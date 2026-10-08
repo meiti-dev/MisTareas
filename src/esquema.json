@@ -1,0 +1,118 @@
+{
+  "tema": {
+    "colorPrimario": "#8B5CF6",
+    "colorSecundario": "#06B6D4",
+    "fondo": "#0B0F19",
+    "superficie": "#151B2B",
+    "texto": "#E5E7EB"
+  },
+  "navegacion": {
+    "tipo": "tabs_inferior"
+  },
+  "requiere_login": true,
+  "paginas": [
+    {
+      "id": "inicio",
+      "titulo": "Hoy",
+      "icono": "fa-calendar-day",
+      "componentes": [
+        {
+          "tipo": "MisTareas_muuq0xux__MT_DashboardHoy",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Mostrar tareas de hoy y atrasadas ordenadas por prioridad con check de completado y contador del día"
+    },
+    {
+      "id": "proximos",
+      "titulo": "Próximos",
+      "icono": "fa-calendar-week",
+      "componentes": [
+        {
+          "tipo": "MisTareas_muuq0xux__MT_ProximosDias",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Mostrar tareas agrupadas por los próximos siete días con opción de moverlas de fecha"
+    },
+    {
+      "id": "bandeja",
+      "titulo": "Bandeja",
+      "icono": "fa-inbox",
+      "componentes": [
+        {
+          "tipo": "MisTareas_muuq0xux__MT_BandejaEntrada",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Capturar tareas rápidamente solo con el título y listar las que no tienen fecha ni proyecto"
+    },
+    {
+      "id": "proyectos",
+      "titulo": "Proyectos",
+      "icono": "fa-folder-open",
+      "componentes": [
+        {
+          "tipo": "MisTareas_muuq0xux__MT_GestorProyectos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Gestionar proyectos con color distintivo, secciones internas y porcentaje de avance"
+    },
+    {
+      "id": "detalle_tarea",
+      "titulo": "Detalle",
+      "icono": "fa-pen-to-square",
+      "componentes": [
+        {
+          "tipo": "MisTareas_muuq0xux__MT_DetalleTarea",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Crear y editar tarea con fecha, prioridad, etiquetas, proyecto, subtareas y regla de repetición"
+    },
+    {
+      "id": "configuracion",
+      "titulo": "Configuración",
+      "icono": "fa-gear",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "BASE__Configuracion",
+          "col_span": 12
+        }
+      ]
+    },
+    {
+      "id": "productividad",
+      "titulo": "Productividad",
+      "icono": "fa-chart-line",
+      "componentes": [
+        {
+          "tipo": "MisTareas_muuq0xux__MT_DashboardProductividad",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Visualizar el rendimiento semanal de tareas completadas y la racha de cumplimiento diario"
+    },
+    {
+      "id": "catalogos",
+      "titulo": "Catálogos",
+      "icono": "fa-tags",
+      "componentes": [
+        {
+          "tipo": "MisTareas_muuq0xux__MT_GestorEtiquetas",
+          "col_span": 12
+        },
+        {
+          "tipo": "MisTareas_muuq0xux__MT_GestorPrioridades",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Administrar las etiquetas con sus colores y los niveles de prioridad que alimentan los desplegables"
+    }
+  ],
+  "estilo_layout": "app",
+  "es_industrial": false,
+  "estilo_visual": "movil"
+}
