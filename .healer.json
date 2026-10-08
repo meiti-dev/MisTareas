@@ -1,6 +1,13 @@
 {
   "revisar": [
-    "src/fabrica/diccionario/**"
+    "server/moldes/MisTareas_muuq0xux__MT_DashboardHoy.jsx",
+    "server/moldes/MisTareas_muuq0xux__MT_ProximosDias.jsx",
+    "server/moldes/MisTareas_muuq0xux__MT_BandejaEntrada.jsx",
+    "server/moldes/MisTareas_muuq0xux__MT_GestorProyectos.jsx",
+    "server/moldes/MisTareas_muuq0xux__MT_DetalleTarea.jsx",
+    "server/moldes/MisTareas_muuq0xux__MT_DashboardProductividad.jsx",
+    "server/moldes/MisTareas_muuq0xux__MT_GestorEtiquetas.jsx",
+    "server/moldes/MisTareas_muuq0xux__MT_GestorPrioridades.jsx"
   ],
   "vulnerabilidades_aceptadas": [
     {
